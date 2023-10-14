@@ -50,4 +50,4 @@ A list of helpful beginner resources for GIS, from which these notes are derived
 
     - A **Point** is a feature with only a single vertex
     - A **Polyline** is a feature with two or more vertices where the first and last vertex are not equal
-    - A **Polygon** is a feature with three or more vertices where the first and last vertex are equal
+    - A **Polygon** is a feature with four or more vertices where the first and last vertex are equal (alternatively, one could infer a polygon from three vertices if a line is always assumed to be drawn from the last vertex back to the first vertex)
