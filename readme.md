@@ -49,5 +49,10 @@ A list of helpful beginner resources for GIS, from which these notes are derived
     ### Points, Polylines, and Polygons
 
     - A **Point** is a feature with only a single vertex
+      - Some examples of point features would be trees on a neighborhood map or cities on a world map
+      - Point features often become polygons at a larger scale, e.g. points of cities can become polygon city boundaries when zoomed
     - A **Polyline** is a feature with two or more vertices where the first and last vertex are not equal
+      - Roads, rivers, flight paths, and contours are all examples of features that would be good candidates for the use of a polyline
+      - Sometimes polylines have extra rules such as "polylines of roads should connect at intersections" or "topographic contour polylines can touch (i.e., at cliffs) but should never cross each other"
     - A **Polygon** is a feature with four or more vertices where the first and last vertex are equal (alternatively, one could infer a polygon from three vertices if a line is always assumed to be drawn from the last vertex back to the first vertex)
+      - Some examples of polygon features would be city boundaries on larger maps or individual houses in a neighborhood on smaller maps
