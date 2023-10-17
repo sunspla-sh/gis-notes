@@ -56,3 +56,9 @@ A list of helpful beginner resources for GIS, from which these notes are derived
       - Sometimes polylines have extra rules such as "polylines of roads should connect at intersections" or "topographic contour polylines can touch (i.e., at cliffs) but should never cross each other"
     - A **Polygon** is a feature with four or more vertices where the first and last vertex are equal (alternatively, one could infer a polygon from three vertices if a line is always assumed to be drawn from the last vertex back to the first vertex)
       - Some examples of polygon features would be city boundaries on larger maps or individual houses in a neighborhood on smaller maps
+    
+    ### Layers
+
+     - Most GIS applications group vector features into **layers**, which have the same geometry type and the same kinds of attributes (e.g. a tree layer would consist of point geometries representing trees along with attributes describing those trees)
+     
+     - This grouping of features into layers conveniently allows us to show or hide all of a specific type of feature on our maps as a single unit
