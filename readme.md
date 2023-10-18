@@ -60,5 +60,10 @@ A list of helpful beginner resources for GIS, from which these notes are derived
     ### Layers
 
      - Most GIS applications group vector features into **layers**, which have the same geometry type and the same kinds of attributes (e.g. a tree layer would consist of point geometries representing trees along with attributes describing those trees)
-     
+
      - This grouping of features into layers conveniently allows us to show or hide all of a specific type of feature on our maps as a single unit
+
+    ### Scale
+
+     - **Scale** is the ratio of a distance on a map to a corresponding distance on the ground
+     - Choosing the wrong scale for your GIS data can cause unintended side effects such as missing or partially captured features when the scale is too small (i.e. too zoomed out for your requirements) or wasted effort and time capturing features that aren't actually needed when the scale is too large (i.e. too zoomed in for your requirements)
