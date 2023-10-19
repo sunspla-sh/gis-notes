@@ -66,4 +66,10 @@ A list of helpful beginner resources for GIS, from which these notes are derived
     ### Scale
 
      - **Scale** is the ratio of a distance on a map to a corresponding distance on the ground
+    
      - Choosing the wrong scale for your GIS data can cause unintended side effects such as missing or partially captured features when the scale is too small (i.e. too zoomed out for your requirements) or wasted effort and time capturing features that aren't actually needed when the scale is too large (i.e. too zoomed in for your requirements)
+
+    ### Symbology
+
+    - Vector layers in GIS applications will be shown with default colors and symbols, however it is often beneficial to use the symbology tools built into a GIS application to change these meaningless defaults to more intuitive and meaningful symbols
+      - For example, a layer of point features that represent trees may be drawn as purple dots by default within the GIS application. This dots are rather meaningless for anyone viewing a map, so using the symbology tools within the GIS application to change the purple dots to small tree images will help future viewers understand the data represented on a map created from this feature layer
