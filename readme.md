@@ -73,3 +73,13 @@ A list of helpful beginner resources for GIS, from which these notes are derived
 
     - Vector layers in GIS applications will be shown with default colors and symbols, however it is often beneficial to use the symbology tools built into a GIS application to change these meaningless defaults to more intuitive and meaningful symbols
       - For example, a layer of point features that represent trees may be drawn as purple dots by default within the GIS application. This dots are rather meaningless for anyone viewing a map, so using the symbology tools within the GIS application to change the purple dots to small tree images will help future viewers understand the data represented on a map created from this feature layer
+
+    ### Spatial Analysis
+
+    - Vector data excels at helping us do **spatial analysis**, which is the process of answering geographic questions such as "How many houses lay within the 100 year floodplain?" or "Where is the most dense one square kilometer section of forest within the nature preserve?"
+
+    ### Common Problems With Vector Data
+
+    - **Slivers** are visual errors of thin lines through polygon features that occur when the edges of two polygon areas don't meet properly
+    
+    - **Overshoots** and **Undershoots** are visual errors of line features slightly sticking out past an exact intersection (when they should have stopped at the intersection) or barely not touching at exact intersections (when they should have touched at the intersection), respectively.
