@@ -71,6 +71,7 @@ A list of helpful beginner resources for GIS, from which these notes are derived
 
     ### Symbology
 
+    - Symbology can be defined as the study of symbols or alternatively the art of expression using symbols.
     - Vector layers in GIS applications will be shown with default colors and symbols, however it is often beneficial to use the symbology tools built into a GIS application to change these meaningless defaults to more intuitive and meaningful symbols
       - For example, a layer of point features that represent trees may be drawn as purple dots by default within the GIS application. This dots are rather meaningless for anyone viewing a map, so using the symbology tools within the GIS application to change the purple dots to small tree images will help future viewers understand the data represented on a map created from this feature layer
 
