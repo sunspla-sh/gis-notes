@@ -84,3 +84,5 @@ A list of helpful beginner resources for GIS, from which these notes are derived
     - **Slivers** are visual errors of thin lines through polygon features that occur when the edges of two polygon areas don't meet properly
     
     - **Overshoots** and **Undershoots** are visual errors of line features slightly sticking out past an exact intersection (when they should have stopped at the intersection) or barely not touching at exact intersections (when they should have touched at the intersection), respectively.
+
+### Vector Attribute Data
