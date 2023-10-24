@@ -86,3 +86,12 @@ A list of helpful beginner resources for GIS, from which these notes are derived
     - **Overshoots** and **Undershoots** are visual errors of line features slightly sticking out past an exact intersection (when they should have stopped at the intersection) or barely not touching at exact intersections (when they should have touched at the intersection), respectively.
 
 ### Vector Attribute Data
+- **Attribute data** are used to descript vector features
+
+    - Attribute data can include any general information about a feature, so both visible and non-visible properties of features are allowed
+
+    - For example, if we are working with a polygon feature that represents a house, then attribute data can include the color of a roof (visible) and also the age of a house (non-visible)
+
+    - We can use this attribute data to determine how our features should appear on the map, for example by drawing houses with red roofs as red polygons
+
+    - The process of setting colors and drawing styles of features based on their attribute data is often referred to as setting feature symbology
